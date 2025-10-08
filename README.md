@@ -19,20 +19,6 @@ Real-time edge detection viewer with camera capture, native processing, and web 
 -  Modern UI with dark theme
 -  Buildable with tsc
 
-## Screenshots
-
-### Android App
-![Android App Running](images/android-app-running.png)
-*Camera feed with edge detection toggle and FPS counter*
-
-![Edge Detection Mode](images/edge-detection.png)
-*Canny edge detection processing in real-time*
-
-![Grayscale Mode](images/grayscale-mode.png)
-*Grayscale processing mode*
-
-### Web Viewer\n![Web Interface Working](images/web-viewer-working.png)\n*Web viewer successfully loaded with FPS/resolution stats and sample frame placeholder*\n\n![Sample Processed Frame](images/web-sample-frame.png)\n*Sample processed frame display in browser*
-
 ## Setup Instructions
 
 ### Android Development
@@ -109,6 +95,7 @@ CameraX (Y plane)  JNI  C++ OpenCV  RGBA buffer  OpenGL ES texture  Screen
 - *Toggle button working (Raw/Edges)*
 - *FPS counter displaying numbers*
 - *Web viewer showing processed frame*
+
 
 
 
