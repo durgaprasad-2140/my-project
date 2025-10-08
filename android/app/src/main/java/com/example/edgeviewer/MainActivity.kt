@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
             val provider = providerFuture.get()
             val preview = Preview.Builder().build().also { it.setSurfaceProvider(previewView.surfaceProvider) }
             val analysis = ImageAnalysis.Builder().build().also {
-                it.setAnalyzer(ContextCompat.getMainExecutor(this)) { val msg = NativeBridge.stringFromJNI() }
+                it.setAnalyzer(ContextCompat.getMainExecutor(this)) { image ->\n                val yPlane = image.planes[0].buffer\n                val yBytes = ByteArray(yPlane.remaining())\n                yPlane.get(yBytes)\n                val width = image.width\n                val height = image.height\n                val out = ByteArray(width*height*4)\n                NativeBridge.processGrayscale(width, height, yBytes, image.planes[0].rowStride, out)\n                image.close()\n            }
             }
             val selector = CameraSelector.DEFAULT_BACK_CAMERA
             provider.unbindAll()
@@ -34,4 +34,5 @@ class MainActivity : ComponentActivity() {
         }, ContextCompat.getMainExecutor(this))
     }
 }
+
 
