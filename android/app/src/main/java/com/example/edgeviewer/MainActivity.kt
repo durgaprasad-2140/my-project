@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
             val provider = providerFuture.get()
             val preview = Preview.Builder().build().also { it.setSurfaceProvider(previewView.surfaceProvider) }
             val analysis = ImageAnalysis.Builder().build().also {
-                it.setAnalyzer(ContextCompat.getMainExecutor(this)) { /* TODO: pass frames to JNI */ }
+                it.setAnalyzer(ContextCompat.getMainExecutor(this)) { val msg = NativeBridge.stringFromJNI() }
             }
             val selector = CameraSelector.DEFAULT_BACK_CAMERA
             provider.unbindAll()

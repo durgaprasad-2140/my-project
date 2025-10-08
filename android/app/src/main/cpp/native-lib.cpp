@@ -1,0 +1,1 @@
+﻿#include <jni.h>\n#include <android/log.h>\n\nextern "C" JNIEXPORT jstring JNICALL\nJava_com_example_edgeviewer_NativeBridge_stringFromJNI(\n        JNIEnv* env,\n        jobject /* this */) {\n    return env->NewStringUTF("JNI ready");\n}\n
