@@ -1,1 +1,1 @@
-﻿package com.example.edgeviewer\n\nobject NativeBridge {\n    init {\n        System.loadLibrary("edgeproc")\n    }\n    external fun stringFromJNI(): String\n}\n
+﻿package com.example.edgeviewer\n\nobject NativeBridge {\n    external fun processGrayscale(width: Int, height: Int, yPlane: ByteArray, yRowStride: Int, outRgba: ByteArray)\n    external fun processCanny(width: Int, height: Int, yPlane: ByteArray, yRowStride: Int, outRgba: ByteArray)\n\n    init {\n        System.loadLibrary("edgeproc")\n    }\n    external fun stringFromJNI(): String\n}\n
