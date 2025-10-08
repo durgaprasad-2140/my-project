@@ -1,3 +1,5 @@
+<img width="481" height="963" alt="Screenshot 2025-10-08 234716" src="https://github.com/user-attachments/assets/5f65d089-dd07-43ae-85e5-c0e07d8e1afe" />
+<img width="1909" height="1011" alt="Screenshot 2025-10-08 234126" src="https://github.com/user-attachments/assets/d6f75333-6539-4ade-a326-40b8f730a461" />
 <img width="1916" height="968" alt="Screenshot 2025-10-08 232654" src="https://github.com/user-attachments/assets/a02bbdc2-bb4a-46ec-aed7-8ffe323e86fa" />
 ﻿# Android + OpenCV (C++) + OpenGL ES + Web (TypeScript)
 
