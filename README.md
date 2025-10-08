@@ -1,3 +1,4 @@
+<img width="1916" height="968" alt="Screenshot 2025-10-08 232654" src="https://github.com/user-attachments/assets/a02bbdc2-bb4a-46ec-aed7-8ffe323e86fa" />
 ﻿# Android + OpenCV (C++) + OpenGL ES + Web (TypeScript)
 
 Real-time edge detection viewer with camera capture, native processing, and web display.
