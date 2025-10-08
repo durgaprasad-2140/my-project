@@ -92,12 +92,7 @@ CameraX (Y plane)  JNI  C++ OpenCV  RGBA buffer  OpenGL ES texture  Screen
 - FPS calculated in 1-second intervals
 - Toggle switches between grayscale and edge detection modes
 
-## TODO: Add Screenshots
-*Replace the placeholder image links above with actual screenshots of:*
-- *Android app running with camera feed*
-- *Toggle button working (Raw/Edges)*
-- *FPS counter displaying numbers*
-- *Web viewer showing processed frame*
+
 
 
 
